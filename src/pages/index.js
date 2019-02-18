@@ -14,26 +14,11 @@ const Page = styled.div`
   align-items: center;
 `;
 
-const Heading = styled.h1`
-  font-size: 24px;
-  color: #555;
-  margin-top: 60px;
-`;
-
-const Label = styled.p`
-  font-size: 14px;
-  color: #aaa;
-  margin-top: 12px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-`;
 
 const IndexPage = () => (
   <Layout>
     <Page>
-      <Image />
-      <Heading>GatsbyJS + Storybook</Heading>
-      <Label>Starter</Label>
+      <h1>Portfolio</h1>      
     </Page>
   </Layout>
 );
